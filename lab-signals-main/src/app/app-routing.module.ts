@@ -6,6 +6,7 @@ import { ElementDetailsComponent } from './element-details/element-details.compo
 import { ElementListComponent } from './element-list/element-list.component';
 import { ComputedSignalComponent } from './computed-signal/computed-signal.component';
 import { ClickCounterComponent } from './click-counter/click-counter.component';
+import { ItemCounterComponent } from './item-counter/item-counter.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'elements', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'effects', component: EffectsComponent },
   { path: 'computed-signal', component: ComputedSignalComponent },
   { path: 'click-counter', component: ClickCounterComponent },
+  { path: 'item-counter', component: ItemCounterComponent },
   {
     path: 'elements',
     children: [

@@ -100,4 +100,12 @@ export class ElementoService {
   selecionarElemento2(elemento: Elemento) {
     this.elementoCalculado2.set(elemento);
   }
+
+   limparLog() {
+    this.elementoSelecionado.set(null);
+    this.elementoCalculado1.set(null);
+    this.elementoCalculado2.set(null);
+    console.clear();
+    console.log('Log apagado manualmente.');
+  }
 }
