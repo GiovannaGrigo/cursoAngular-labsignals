@@ -5,12 +5,14 @@ import { EffectsComponent } from './effects/effects.component';
 import { ElementDetailsComponent } from './element-details/element-details.component';
 import { ElementListComponent } from './element-list/element-list.component';
 import { ComputedSignalComponent } from './computed-signal/computed-signal.component';
+import { ClickCounterComponent } from './click-counter/click-counter.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'elements', pathMatch: 'full' },
   { path: 'intro', component: SignalsIntroComponent },
   { path: 'effects', component: EffectsComponent },
   { path: 'computed-signal', component: ComputedSignalComponent },
+  { path: 'click-counter', component: ClickCounterComponent },
   {
     path: 'elements',
     children: [

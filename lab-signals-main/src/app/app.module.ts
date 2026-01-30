@@ -9,6 +9,7 @@ import { EffectsDemoComponent } from './effects-demo/effects-demo.component';
 import { ElementListComponent } from './element-list/element-list.component';
 import { ElementDetailsComponent } from './element-details/element-details.component';
 import { ComputedSignalComponent } from './computed-signal/computed-signal.component';
+import { ClickCounterComponent } from './click-counter/click-counter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ComputedSignalComponent } from './computed-signal/computed-signal.compo
     EffectsComponent,
     ElementListComponent,
     ElementDetailsComponent,
-    ComputedSignalComponent
+    ComputedSignalComponent,
+    ClickCounterComponent,
   ],
   imports: [
     BrowserModule,
