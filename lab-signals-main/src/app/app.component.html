@@ -5,17 +5,19 @@
 
   <div>
     <ul>
-      <li><a routerLink="/intro">Lista de elementos</a></li>
-      <li><a routerLink="/effects">Manipulando estado físicos</a></li>
+      <li><a routerLink="/intro">Lista de elementos Químicos</a></li>
+      <li><a routerLink="/effects">Estados físicos dos elementos</a></li>
+      <li><a routerLink="/elements">Elementos favoritos</a></li>
     </ul>
   </div>
-
+  
   <div>
-    <img
-      src="./../../assets/Banner.png"
-      alt="Descrição da Imagem"
-      class="image-container"
-    />
+    <img src="./../../assets/Banner.png" alt="Descrição da Imagem" class="image-container" />
+  </div>
+
+  <div class="element-container">
+    <router-outlet name="list"></router-outlet>
+    <router-outlet name="details"></router-outlet>
   </div>
 </nav>
 

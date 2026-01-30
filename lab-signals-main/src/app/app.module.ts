@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { SignalsIntroComponent } from './signals-intro/signals-intro.component';
 import { EffectsComponent } from './effects/effects.component';
 import { EffectsDemoComponent } from './effects-demo/effects-demo.component';
+import { ElementListComponent } from './element-list/element-list.component';
+import { ElementDetailsComponent } from './element-details/element-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignalsIntroComponent,
     EffectsComponent,
-    EffectsDemoComponent
+    ElementListComponent,
+    ElementDetailsComponent
   ],
   imports: [
     BrowserModule,
